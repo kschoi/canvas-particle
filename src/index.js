@@ -32,6 +32,14 @@ const makeCircleBuilder = (x, y) => {
  * @param tracking -> mouse location tracking (interval)
  * @param shape -> shape builder function
  */
+// const mouseClick = new OnMouseTrackerListener(
+//   "click",
+//   (x, y, shape) => {
+//     animationExecuter.add(shape);
+//   },
+//   false,
+//   makeCircleBuilder
+// );
 
 const infinityMouseTracking = new OnMouseTrackerListener(
   "mousemove",
