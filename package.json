@@ -1,0 +1,22 @@
+{
+  "name": "canvas-particle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kschoi/canvas-particle.git",
+  "author": "kyungsun choi <kschoi0308@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "start": "webpack serve --config webpack.dev.config.js",
+    "build": "yarn clean && webpack --config webpack.production.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
